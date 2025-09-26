@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/<your-org>/argo-kustomize-starter.git'
+    repoURL: 'https://github.com/cyprientemateu/argo-kustomize-starter.git'
     targetRevision: HEAD
     path: overlays/prod
   destination:
