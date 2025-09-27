@@ -3,8 +3,11 @@
 ## Overview
 This repo demonstrates deploying an Nginx app using Kustomize overlays and ArgoCD for GitOps.
 
+---
+
 ## Repo structure 
 
+```text
 argo-kustomize-starter/
 ├── base/
 │   ├── deployment.yaml
@@ -24,7 +27,8 @@ argo-kustomize-starter/
 ├── argo-app-staging.yaml
 ├── argo-app-prod.yaml
 └── README.md
-
+```
+---
 ## Environments
 - dev: 1 replica
 - staging: 2 replicas
@@ -83,7 +87,7 @@ Environments included:
 
 ## Workflow Diagram
 
-![GitOps Workflow](./argo-gitops-workflow.png)
+![GitOps Workflow](/argo-gitops-workflow.png)
 
 **Workflow:**  
 Git Repo (Kustomize overlays) → ArgoCD → Kubernetes Cluster
